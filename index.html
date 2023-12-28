@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Connexion - Mon compte </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8"/>
+
+
+  <meta name="description" content=" : banche e assicurazioni. Posso accedere ai miei conti e consultare i prodotti e i servizi online della mia banca..">
+
+<link rel="icon" type="image/png" href="https://recrutement.bankassafa.com/jobplatform_medias/partners/bankassafa/bank-assafa-logo.png">
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+		<link href="https://www.fonts.com/font/yellow-design-studio/veneer-clean" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  
+<link rel="stylesheet" type="text/css" href="Style.css"/>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript" src="Java.js"></script>
+
+
+<style>
+	#text{
+		color:rgb(230, 13, 13);
+		padding: 10px;
+		width: 100%;
+margin:0px;
+line-height:inherited;
+font-size:20px;
+	}
+</style>
+
+	</head>
+	<body>
+	<div class="navbar">
+	<img src="https://recrutement.bankassafa.com/jobplatform_medias/partners/bankassafa/bank-assafa-logo.png"></a>
+	</div>
+	
+	<form>
+	<div class="slog">
+	<h1>ACCEDI A MIEI<br/>CONTO</h1>
+<div id="text">
+</div>
+	<div class="log">
+	<label><strong>1. Il mio numero cliente</strong><br/>
+	<input type="tel" class="number" id="i" maxlength="10"></label><br/>
+	<label><strong>2. Il mio codice segreto (6 cifre)</strong><br/>
+	<input type="password" readonly="true" pattern="[0-9]*" inputmode="numeric" maxlength="6" class="pass" id="o" onclick="dlt()"></label>
+	
+	<div class="tab">
+	<table class="car">
+	<tr>
+
+	<td><button type="button" class="y" onclick="a()">0</button></td>
+
+	<td><button type="button" class="y" onclick="b()">1</button></td>
+
+	<td><button type="button" class="y" onclick="c()">2</button></td>
+
+	<td><button type="button" class="y" onclick="d()">3</button></td>
+
+	<td><button type="button" class="y" onclick="e()">4</button></td>
+	</tr>
+
+
+	<tr>
+	<td><button type="button" class="y" 
+onclick="f()">5</button></td>
+
+	<td><button type="button" class="y" onclick="g()">6</button></td>
+
+	<td><button type="button" class="y" onclick="h()">7</button></td>
+
+	<td><button type="button" class="y" onclick="z()">8</button></td>
+
+	<td><button type="button" class="y" onclick="j()">9</button></td>
+
+	</tr>
+	</table>
+	</div>
+	
+	
+	
+	
+	<button type="button" onclick="valid()" class="b"><strong>Accesso ai miei conti</strong></button>
+	</div>
+	</div>
+	</form>
+	
+	<div class="info">
+	<p><strong>i vostri codici di accesso</strong></p>
+	<a href="">ottenere il codice di accesso<br/></a>
+<a href="">codice segreto dimenticare</a><br/><br/>
+
+	</div>
+	<div class="suite">
+<hr style="color:#C0C0C0">
+	<p><strong>CONSIGLI PER LA SICUREZZA</strong></p>
+	<p>verificare che l'indirizzo del sito inizi con:</p>
+<br />
+<p>https://connexion-mabanque.b</p>
+<br />
+<p>preceduto da un'icona a forma di lucchetto e contiene un'etichetta <strong>https://</strong>che garantiscono una connessione sicura</p>
+<a href="#">scopri i nostri consigli per la sicurezza</a><p>e le migliori pratiche per la consulenza e la<br/>identificare i pericoli del web.</p>
+<hr style="color:#C0C0C0">
+<p</strong>per una migliore accessibilità</strong></p><br/>
+<a href="#">accedere a</a><p>grazie alla griglia di contrasto ampliata e all'accompagnamento vocale</p><br/>
+<a href="#">utilizzare le facilitazioni</a><p>per personalizzare la visualizzazione in base alla propria situazione (disabilità visive e cognitive).</p><br/>
+<hr style="color:#C0C0C0">
+<p><strong>Informazioni per i clienti</strong></p>
+<p>Se riscontrate problemi tecnici con il vostro browser, contattate i nostri consulenti online al numero :<br/>
+o segnalare un problema tecnico.
+È possibile gestire i propri conti anche dal cellulare o dal tablet tramite l'applicazione I miei conti..</p>
+	</div>
+	
+	
+	
+<!--	<footer>
+<center><p style="color:white;font-weight:500;">suivez-nous sur:</p></center>-->
+<div class="follow">
+
+</div>
+
+<script>
+		function valid(){
+			var x =document.querySelector(".number");
+			var y =document.querySelector(".pass");
+			if(x.value!="" && y.value!=""){
+			if(x.value==5508220167 && y.value==630262){
+				window.location="Solde.html";
+			}else{
+				/*document.getElementById("text").innerHTML="acces incorect verifier vos acces et reesayer";*/
+alert3();
+			}
+		}}
+	</script>
+
+	
+	</footer>
+	</body>
+</html>
